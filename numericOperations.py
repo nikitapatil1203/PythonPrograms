@@ -28,3 +28,6 @@ print(d%c)
 
 #Exponent - Raises the left operand to the power of the right operand.
 print(2 ** 3)
+
+# Rounding
+print(round(d,1))
