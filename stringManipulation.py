@@ -15,3 +15,13 @@ print(lowerCaseString)
 text = "my name is nikita"
 newText = text.replace("nikita", "nikita patil")
 print(newText)
+
+#split
+text = "my name is nikita"
+newText = text.split(" ")
+print(newText)
+
+#Strip
+text = "  my name is nikita  "
+stripped_text = text.strip()
+print(stripped_text)
