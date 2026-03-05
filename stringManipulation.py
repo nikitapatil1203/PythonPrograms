@@ -25,3 +25,9 @@ print(newText)
 text = "  my name is nikita  "
 stripped_text = text.strip()
 print(stripped_text)
+
+#subString
+str1 = "my name is nikita"
+newString = str1[0:9]
+print(newString)
+
