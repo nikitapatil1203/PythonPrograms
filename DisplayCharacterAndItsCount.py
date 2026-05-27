@@ -7,13 +7,13 @@ count = 1
 
 
 
-for i in range(0,len(list1)-1):
-    if list1[i]==list1[i+1]:
+for i in range(0,len(mylist)-1):
+    if mylist[i]==mylist[i+1]:
         counter += 1
     else:
-        ab = ab+list1[i]+str(counter)
+        ab = ab+mylist[i]+str(counter)
         counter=1
-print(ab+list1[i]+str(counter))
+print(ab+mylist[i]+str(counter))
 
 
 
