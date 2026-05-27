@@ -2,18 +2,18 @@ str1 = "aabbbccaabbb"
 # o/p = a2b3c2a2b3
 
 mylist = list(str1)
-outputString = mylist[0]
+outputString = ""
 count = 1
 
 
-for i in range(1, len(mylist)):
-    if mylist[i] == mylist[i-1]:
-        count += 1
-    else:
-        outputString = outputString + str(count) + mylist[i]
-        count =1
 
-print(outputString+str(count))
+for i in range(0,len(list1)-1):
+    if list1[i]==list1[i+1]:
+        counter += 1
+    else:
+        ab = ab+list1[i]+str(counter)
+        counter=1
+print(ab+list1[i]+str(counter))
 
 
 
