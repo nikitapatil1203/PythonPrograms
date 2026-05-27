@@ -31,3 +31,8 @@ str1 = "my name is nikita"
 newString = str1[0:9]
 print(newString)
 
+#convert to list
+str1 = "nikita"
+mylist = list(str1)
+print(mylist)
+
