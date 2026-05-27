@@ -9,11 +9,11 @@ count = 1
 
 for i in range(0,len(mylist)-1):
     if mylist[i]==mylist[i+1]:
-        counter += 1
+        count += 1
     else:
-        outputString = outputString+mylist[i]+str(counter)
-        counter=1
-print(outputString+mylist[i]+str(counter))
+        outputString = outputString+mylist[i]+str(count)
+        count=1
+print(outputString+mylist[i]+str(count))
 
 
 
