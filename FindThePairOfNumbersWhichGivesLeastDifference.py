@@ -15,6 +15,6 @@ for i in range(0, len(numList)-1):
         elif smallestDiff == difference:
             pair.append((numList[i],numList[j]))
 
-print( smallestdiff)
+print(smallestDiff)
 print(pair)
 
