@@ -6,7 +6,7 @@ pair = []
 
 
 for i in range(0, len(numList)-1):
-    for j in range(i+1, len(numList)):
+    for j in range(i+1, len(numList)-1):
         difference = abs(numList[i] - numList[j])
         if smallestDiff > difference:
             smallestDiff = difference
