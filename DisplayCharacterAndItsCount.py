@@ -13,7 +13,7 @@ for i in range(0,len(mylist)-1):
     else:
         outputString = outputString+mylist[i]+str(count)
         count=1
-print(outputString+mylist[i]+str(count))
+print(outputString+mylist[-1]+str(count))
 
 
 
