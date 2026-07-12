@@ -23,3 +23,23 @@ while i>=0:
 
 print(reversedString.strip())
 
+
+# 3) reverse whole string as well as each word from a string
+inputString = "nikita patil is my name".split(" ")
+reversedString = ""
+
+i = len(inputString) - 1
+
+while i >= 0:
+    newString = inputString[i]
+    j = len(inputString[i]) - 1
+
+    while j >= 0:
+        reversedString = reversedString + newString[j]
+        j -= 1
+
+    reversedString = reversedString + " "
+    i -= 1
+
+print(reversedString.strip())
+
