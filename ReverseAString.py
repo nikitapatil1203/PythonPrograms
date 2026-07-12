@@ -11,6 +11,8 @@ while i>=0:
 print(reversedString)
 
 
+##############################################################
+
 
 # 2) reverse only words not characters
 inputString = "Hello, World! Welcome to Python.".split(" ")
@@ -22,6 +24,11 @@ while i>=0:
     i -= 1
 
 print(reversedString.strip())
+
+
+
+#############################################################
+
 
 
 # 3) reverse whole string as well as each word from a string
@@ -42,4 +49,13 @@ while i >= 0:
     i -= 1
 
 print(reversedString.strip())
+
+
+
+##########################################################
+
+
+
+
+
 
